@@ -4,8 +4,8 @@
     <title>且辞千山 • Posts by &#34;离散数学基础&#34; category</title>
     <link href="http://example.com" />
     <updated>2023-03-01T02:58:37.000Z</updated>
-    <category term="题目" />
     <category term="期末复习" />
+    <category term="题目" />
     <entry>
         <id>http://example.com/2023/03/01/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/%E7%A6%BB%E6%95%A3%E9%A2%98%E5%9E%8B%E6%A2%B3%E7%90%86/</id>
         <title>离散题型梳理</title>
@@ -187,6 +187,9 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;包含排斥原理、有穷集的计数&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;命题逻辑符号化，与非或非联结词&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;证明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#证明&#34;&gt;#&lt;/a&gt; 证明&lt;/h2&gt;
