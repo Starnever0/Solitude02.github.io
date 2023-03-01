@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>且辞千山 • Posts by &#34;期末复习&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 28 Feb 2023 22:43:01 +0800</pubDate>
+        <lastBuildDate>Tue, 28 Feb 2023 22:43:01 +0800</lastBuildDate>
+        <category>期末复习</category>
+        <category>题目</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/02/28/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</guid>
+            <title>离散数学基础</title>
+            <link>http://example.com/2023/02/28/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</link>
+            <category>期末复习</category>
+            <pubDate>Tue, 28 Feb 2023 22:43:01 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;/pic/%E7%A6%BB%E6%95%A31.png&#34; alt=&#34;离散1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/pic/%E7%A6%BB%E6%95%A32.png&#34; alt=&#34;离散2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/pic/%E7%A6%BB%E6%95%A33(1).png&#34; alt=&#34;离散3(1)&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/pic/%E7%A6%BB%E6%95%A33(2).png&#34; alt=&#34;离散3(2)&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/02/28/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95%E5%9F%BA%E7%A1%80/</guid>
+            <title>第二章 数据科学理论与方法基础</title>
+            <link>http://example.com/2023/02/28/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95%E5%9F%BA%E7%A1%80/</link>
+            <category>期末复习</category>
+            <pubDate>Tue, 28 Feb 2023 19:36:45 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;em&gt;本系列所有题目及答案均由 ChatGPT 生成，不保证完全正确，仅供参考&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;统计分析机器学习&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#统计分析机器学习&#34;&gt;#&lt;/a&gt; 统计分析＆机器学习&lt;/h2&gt;
+&lt;h3 id=&#34;选择&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#选择&#34;&gt;#&lt;/a&gt; 选择&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;在假设检验中，显著性水平 α 的值通常设置为多少？&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;0.01&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;0.05&lt;/li&gt;
+&lt;li&gt;0.1&lt;/li&gt;
+&lt;li&gt;根据实际需求确定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;线性回归模型中，最小二乘法的目标是： &lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;最大化预测方差&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;最小化残差平方和&lt;/li&gt;
+&lt;li&gt;最小化预测误差&lt;/li&gt;
+&lt;li&gt;最大化解释方差&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;决策树模型中，划分样本时的目标是：&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;最小化划分前后的不确定性之和&lt;/li&gt;
+&lt;li&gt;最小化划分前后的差异&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;最大化划分前后的信息增益&lt;/li&gt;
+&lt;li&gt;最大化划分前后的相似性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;支持向量机模型中，如何选择最优的超平面？  &lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;选择最小的间隔距离&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;选择间隔最大的超平面&lt;/li&gt;
+&lt;li&gt;选择支持向量最少的超平面&lt;/li&gt;
+&lt;li&gt;选择支持向量最多的超平面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;聚类分析中，K 均值聚类的优点是：&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li class=&#34;correct&#34;&gt;对数据分布的假设较少&lt;/li&gt;
+&lt;li&gt;适用于处理大规模数据&lt;/li&gt;
+&lt;li&gt;可以得到层次结构&lt;/li&gt;
+&lt;li&gt;能够处理数据的噪声&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;在统计学中，方差是指：&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;一组数据的平均值&lt;/li&gt;
+&lt;li&gt;一组数据的极差&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;一组数据的标准差的平方 &lt;/li&gt;
+&lt;li&gt;一组数据的标准差&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;在机器学习中，监督学习的特点是：&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;训练数据不需要标签&lt;/li&gt;
+&lt;li&gt;训练数据和测试数据的特征空间不一致&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;需要明确的输入和输出变量&lt;/li&gt;
+&lt;li&gt;输出结果不是离散的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;可视化图表中，箱线图可以展示以下哪些信息：&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;数据分布的偏态和峰度&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;数据的分布范围和中位数&lt;/li&gt;
+&lt;li&gt;数据的均值和标准差&lt;/li&gt;
+&lt;li&gt;数据的频数和占比&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;在统计学中，假设检验的步骤包括：&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li class=&#34;correct&#34;&gt;提出零假设、选择显著性水平、计算统计量、拒绝或接受零假设&lt;/li&gt;
+&lt;li&gt;提出备选假设、选择显著性水平、计算统计量、拒绝或接受备选假设&lt;/li&gt;
+&lt;li&gt;提出零假设、选择置信水平、计算置信区间、判断区间是否包含真值&lt;/li&gt;
+&lt;li&gt;提出备选假设、选择置信水平、计算置信区间、判断区间是否包含真值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;在机器学习中，混淆矩阵用于评估模型的表现，其中真阳性（TP）指的是：&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li class=&#34;correct&#34;&gt;实际为正例的样本被正确预测为正例的数量&lt;/li&gt;
+&lt;li&gt;实际为正例的样本被错误预测为负例的数量&lt;/li&gt;
+&lt;li&gt;实际为负例的样本被正确预测为负例的数量&lt;/li&gt;
+&lt;li&gt;实际为负例的样本被错误预测为正例的数量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;填空&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#填空&#34;&gt;#&lt;/a&gt; 填空&lt;/h3&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;统计学中，&lt;span class=&#34;gap&#34;&gt;均值&lt;/span&gt; 是一组数据的平均值，&lt;span class=&#34;gap&#34;&gt;标准差&lt;/span&gt;是一组数据的标准差。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;在机器学习中，&lt;span class=&#34;gap&#34;&gt;主成分分析（PCA）&lt;/span&gt;是一种无监督学习的方法，用于数据降维。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;可视化图表中，饼图的缺点之一是&lt;span class=&#34;gap&#34;&gt;面积大小不易准确感知&lt;/span&gt;，因为人类对于面积的感知比较不准确。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;在统计学中，&lt;span class=&#34;gap&#34;&gt;t&lt;/span&gt; 检验用于比较两个样本的均值是否相等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;在机器学习中，&lt;span class=&#34;gap&#34;&gt;k 近邻算法&lt;/span&gt;是一种常用的分类算法，通过计算样本与各个类别之间的距离来进行分类。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;在机器学习中，&lt;span class=&#34;gap&#34;&gt;决策树&lt;/span&gt; 是一种监督学习的方法，可以用于回归或分类问题。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;可视化图表中，散点图可以用于表示两个变量之间的&lt;span class=&#34;gap&#34;&gt;关系&lt;/span&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;在统计学中，&lt;span class=&#34;gap&#34;&gt;方差&lt;/span&gt; 检验用于比较两个或多个样本的方差是否相等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;在机器学习中，&lt;span class=&#34;gap&#34;&gt;k 均值算法&lt;/span&gt; 是一种常用的聚类算法，它的核心思想是通过最小化聚类内部的方差来实现聚类。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;在可视化中，&lt;span class=&#34;gap&#34;&gt;渐变色映射&lt;/span&gt; 是一种常见的颜色映射方式，可以将数据按照一定规则映射到不同的颜色。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;简答&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简答&#34;&gt;#&lt;/a&gt; 简答&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;什么是过拟合（overfitting）？如何避免过拟合？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;答：过拟合指模型在训练数据上表现很好，但是在测试数据上表现不好的现象。为了避免过拟合，可以采用以下方法：（1）增加数据量；（2）正则化；（3）提前停止训练；（4）使用集成学习。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;请简要介绍主成分分析（PCA）的原理和应用场景。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;答：主成分分析（PCA）是一种常用的降维方法，其原理是将原始数据通过线性变换，映射到一个新的坐标系中，使得数据在新坐标系中的方差最大。PCA 在数据预处理、特征提取、图像处理等领域有广泛的应用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;请简要介绍 k 近邻算法（k-NN）的原理和应用场景。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;答：k 近邻算法（k-NN）是一种基于实例的机器学习算法，其原理是在特征空间中寻找 k 个距离某个样本最近的样本点，然后通过这 k 个样本的标签来决定该样本的分类。k-NN 在文本分类、图像识别、推荐系统等领域有广泛的应用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;简要介绍 ROC 曲线及其在机器学习中的应用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;答：ROC 曲线全称为接收者操作特征曲线，是一种描述分类模型性能的曲线。ROC 曲线以真正率（TPR）为纵坐标，以假正率（FPR）为横坐标，通常情况下，TPR 和 FPR 都是在 0 到 1 之间。ROC 曲线在机器学习中被广泛应用，尤其是在二分类问题中，可以通过 ROC 曲线来评估不同分类模型的性能，并选择最佳的分类阈值。&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
