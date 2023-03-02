@@ -596,7 +596,10 @@
         <id>http://example.com/data-science/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95%E5%9F%BA%E7%A1%80/</id>
         <title>第二章 数据科学理论与方法基础</title>
         <link rel="alternate" href="http://example.com/data-science/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
-        <content type="html">&lt;p&gt;&lt;em&gt;本系列所有题目及答案均由 ChatGPT 生成，不保证完全正确，仅供参考&lt;/em&gt;&lt;/p&gt;
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;&lt;em&gt;本系列所有题目及答案均由 ChatGPT 生成，不保证完全正确，仅供参考&lt;/em&gt;&lt;br /&gt;
+复习还是建议看大佬的笔记：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vcGVhbnV0bHkvdGFnLyVFNiU5QyU5RCVFNCVCOSU5MCVFOSU5NyVBOC8=&#34;&gt;数据科学理论与实践&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;统计分析机器学习&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#统计分析机器学习&#34;&gt;#&lt;/a&gt; 统计分析＆机器学习&lt;/h2&gt;
 &lt;h3 id=&#34;选择&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#选择&#34;&gt;#&lt;/a&gt; 选择&lt;/h3&gt;
 &lt;ol&gt;
