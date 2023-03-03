@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>http://www.starnever.love</id>
     <title>且辞千山 • Posts by &#34;数据科学导论&#34; category</title>
-    <link href="http://example.com" />
+    <link href="http://www.starnever.love" />
     <updated>2023-02-28T23:56:20.000Z</updated>
-    <category term="期末复习" />
     <category term="题目" />
+    <category term="期末复习" />
     <entry>
-        <id>http://example.com/data-science/%E7%AC%AC%E4%B8%89%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%B7%A5/</id>
+        <id>http://www.starnever.love/data-science/%E7%AC%AC%E4%B8%89%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%B7%A5/</id>
         <title>第三章 数据科学基本流程与数据加工</title>
-        <link rel="alternate" href="http://example.com/data-science/%E7%AC%AC%E4%B8%89%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%B7%A5/"/>
+        <link rel="alternate" href="http://www.starnever.love/data-science/%E7%AC%AC%E4%B8%89%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%B7%A5/"/>
         <content type="html">&lt;h3 id=&#34;选择&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#选择&#34;&gt;#&lt;/a&gt; 选择&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li class=&#34;quiz&#34;&gt;
@@ -151,9 +151,9 @@
         <updated>2023-02-28T23:56:20.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/data-science/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95%E5%9F%BA%E7%A1%80/</id>
+        <id>http://www.starnever.love/data-science/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95%E5%9F%BA%E7%A1%80/</id>
         <title>第二章 数据科学理论与方法基础</title>
-        <link rel="alternate" href="http://example.com/data-science/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
+        <link rel="alternate" href="http://www.starnever.love/data-science/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA%E4%B8%8E%E6%96%B9%E6%B3%95%E5%9F%BA%E7%A1%80/"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;&lt;em&gt;本系列所有题目及答案均由 ChatGPT 生成，不保证完全正确，仅供参考&lt;/em&gt;&lt;br /&gt;
 复习还是建议看大佬的笔记：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vcGVhbnV0bHkvdGFnLyVFNiU5QyU5RCVFNCVCOSU5MCVFOSU5NyVBOC8=&#34;&gt;数据科学理论与实践&lt;/span&gt;&lt;/p&gt;
