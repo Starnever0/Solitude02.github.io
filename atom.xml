@@ -3,9 +3,31 @@
     <id>http://www.starnever.love</id>
     <title>且辞千山</title>
     <link href="http://www.starnever.love" />
-    <updated>2023-03-04T01:39:48.000Z</updated>
+    <updated>2023-03-04T07:33:03.000Z</updated>
+    <category term="技术" />
     <category term="期末复习" />
     <category term="题目" />
+    <entry>
+        <id>http://www.starnever.love/shoka%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91%EF%BC%88%E6%9B%B4%E6%96%B0ing%EF%BC%89/</id>
+        <title>shoka主题搭建hexo博客踩坑（更新ing）</title>
+        <link rel="alternate" href="http://www.starnever.love/shoka%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91%EF%BC%88%E6%9B%B4%E6%96%B0ing%EF%BC%89/"/>
+        <content type="html">&lt;h3 id=&#34;域名与cdn加速&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#域名与cdn加速&#34;&gt;#&lt;/a&gt; 域名与 CDN 加速&lt;/h3&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;之前在阿里云买了个域名以为可以加速博客的访问速度，结果发现 &lt;code&gt;只是换了个名字&lt;/code&gt; 而已。&lt;br /&gt;
+于是最近又在想办法通过 CDN 加速，找了各种网站，最后发现几乎一开始就是 &lt;code&gt;没法成功&lt;/code&gt; 的&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;大概总结以下几点注意事项：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;对于部署在 github pages 上的博客，要更换的域名可以无需备案，流程为：购买域名→实名认证等→解析→在 github 博客的仓库里面的的 &lt;code&gt;settings&lt;/code&gt;  中 &lt;code&gt;page&lt;/code&gt;  里填写域名→在本机博客文件夹根目录下 &lt;code&gt;\source\&lt;/code&gt;  创建一个文件 &lt;code&gt;CNAME&lt;/code&gt; （&lt;strong&gt;无后缀名&lt;/strong&gt;）里面填上购买的域名。&lt;br /&gt;
+一般搭建 hexo 博客的教程里都有。&lt;/li&gt;
+&lt;li&gt;国内 CDN 需要 &lt;code&gt;备案后的域名&lt;/code&gt; ，而部署在 github pages 上的博客网页因为 &lt;code&gt;没有服务器&lt;/code&gt; 无法进行 &lt;code&gt;备案&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;可以使用国外 CDN 或国内某些无需备案的 CDN 但大多 &lt;code&gt;不稳定&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;可以购买服务器，我看了阿里云的报价大概 &lt;code&gt;200多&lt;/code&gt; ，对于仅仅是为了加速博客页面访问速度显然得不偿失。&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="技术" />
+        <updated>2023-03-04T07:33:03.000Z</updated>
+    </entry>
     <entry>
         <id>http://www.starnever.love/%E4%BF%A1%E6%81%AF%E7%BB%84%E7%BB%87-%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95%E4%B8%8E%E7%90%86%E8%AE%BA/</id>
         <title>第一章-信息组织引论</title>
