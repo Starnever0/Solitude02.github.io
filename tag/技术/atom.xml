@@ -11,7 +11,17 @@
         <id>http://www.starnever.love/shoka%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91%EF%BC%88%E6%9B%B4%E6%96%B0ing%EF%BC%89/</id>
         <title>shoka主题搭建hexo博客踩坑（更新ing）</title>
         <link rel="alternate" href="http://www.starnever.love/shoka%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91%EF%BC%88%E6%9B%B4%E6%96%B0ing%EF%BC%89/"/>
-        <content type="html">&lt;h3 id=&#34;域名与cdn加速&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#域名与cdn加速&#34;&gt;#&lt;/a&gt; 域名与 CDN 加速&lt;/h3&gt;
+        <content type="html">&lt;h3 id=&#34;网络图片引用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网络图片引用&#34;&gt;#&lt;/a&gt; 网络图片引用&lt;/h3&gt;
+&lt;p&gt;今天在写 &lt;code&gt;数据科学导论重点&lt;/code&gt; 时候因为引用了网络图片但是加载不出来所以搜索寻求帮助&lt;br /&gt;
+结论是在文章最开始（文章的标题及时间等说明信息下）加上这段代码就好了&lt;br /&gt;
+ &#39;&#39;&#39;&lt;br /&gt;
+
+&lt;meta name=&#34;referrer&#34; content=&#34;no-referrer&#34; /&gt;
+&lt;br /&gt;
+&#39;&#39;&#39;&lt;br /&gt;
+ 原理是 &lt;code&gt;不显示referrer以避开防盗链机制&lt;/code&gt; &lt;br /&gt;
+需要注意的是 &lt;code&gt;在md文档里写任何html、css等标签要用和包起来&lt;/code&gt; ，之前用 html 在 md 文件里面写表格的时候也用过这个，但是网络上的都说是用来消除大片的空行用的。实际上是不加这两个 &lt;code&gt;页面上就会显示html源代码&lt;/code&gt; ，起码 &lt;code&gt;shoka主题&lt;/code&gt; 是这样。&lt;/p&gt;
+&lt;h3 id=&#34;域名与cdn加速&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#域名与cdn加速&#34;&gt;#&lt;/a&gt; 域名与 CDN 加速&lt;/h3&gt;
 &lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;之前在阿里云买了个域名以为可以加速博客的访问速度，结果发现 &lt;code&gt;只是换了个名字&lt;/code&gt; 而已。&lt;br /&gt;
 于是最近又在想办法通过 CDN 加速，找了各种网站，最后发现几乎一开始就是 &lt;code&gt;没法成功&lt;/code&gt; 的&lt;/p&gt;
