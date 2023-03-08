@@ -67,10 +67,12 @@
         {
             "id": "http://www.starnever.love/%E4%BF%A1%E6%81%AF%E7%BB%84%E7%BB%87/",
             "url": "http://www.starnever.love/%E4%BF%A1%E6%81%AF%E7%BB%84%E7%BB%87/",
-            "title": "信息组织",
+            "title": "大纲-信息组织",
             "date_published": "2023-03-04T01:02:58.000Z",
             "content_html": "<h1 id=\"课程概况\"><a class=\"anchor\" href=\"#课程概况\">#</a> 课程概况</h1>\n<table>\n<thead>\n<tr>\n<th>基本方法与理论</th>\n<th>信息组织的前沿及应用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>信息组织引论</td>\n<td>网络环境下的信息组织</td>\n</tr>\n<tr>\n<td>信息资源管理的分类语言</td>\n<td>索引数据库与搜索引擎</td>\n</tr>\n<tr>\n<td>信息资源组织的主题描述语言</td>\n<td>信息组织的广泛应用</td>\n</tr>\n<tr>\n<td>置标语言工具</td>\n<td>信息组织与知识组织</td>\n</tr>\n<tr>\n<td>信息资源描述的元数据方案</td>\n</tr>\n<tr>\n<td>信息组织的数据库方法</td>\n</tr>\n</tbody>\n</table>\n",
-            "tags": []
+            "tags": [
+                "期末复习"
+            ]
         },
         {
             "id": "http://www.starnever.love/%E4%B9%A0%E6%80%9D%E6%83%B3-%E4%BA%8C%E5%8D%81%E5%A4%A7%E6%8A%A5%E5%91%8A%E9%80%9F%E8%A7%88/",
