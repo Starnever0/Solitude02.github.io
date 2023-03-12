@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>且辞千山 • Posts by &#34;python&#34; category</title>
+        <link>http://www.starnever.love</link>
+        <description>哀吾生之须臾</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 07 Mar 2023 01:16:29 +0800</pubDate>
+        <lastBuildDate>Tue, 07 Mar 2023 01:16:29 +0800</lastBuildDate>
+        <category>期末复习</category>
+        <category>技术</category>
+        <category>题目</category>
+        <item>
+            <guid isPermalink="true">http://www.starnever.love/Python%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86/</guid>
+            <title>Python试题回忆</title>
+            <link>http://www.starnever.love/Python%E8%AF%95%E9%A2%98%E5%9B%9E%E5%BF%86/</link>
+            <category>期末复习</category>
+            <pubDate>Tue, 07 Mar 2023 01:16:29 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;:::dander no-icon&lt;br /&gt;
+2023-3-10 15:14:19&lt;br /&gt;
+ 添加了能回忆起来的代码&lt;br /&gt;
+:::&lt;/p&gt;
+&lt;h3 id=&#34;选择&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#选择&#34;&gt;#&lt;/a&gt; 选择&lt;/h3&gt;
+&lt;p&gt;挺常规的都没什么印象了，就是有两题没有正确答案有点印象。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个是循环输出，print 函数 &lt;code&gt;end＝&#39;;&#39;&lt;/code&gt; ，正确答案是 &lt;code&gt;1;2;4;5;&lt;/code&gt;  但是答案里面多了个 7，而 &lt;code&gt;range是左闭右开的区间&lt;/code&gt; 不包括右边的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;for i in range(1,7):
+	if i%3==0:
+		continue
+	else:
+		print(i,end=&amp;quot;;&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;另一个是列表里面嵌套了列表字符串什么的，然后问输出的 &lt;code&gt;ls[1][1]&lt;/code&gt;  是什么，原来的题目是 &lt;code&gt;ls[1][2]&lt;/code&gt;  应该是会报错因为 &lt;code&gt;ls[1]&lt;/code&gt;  里面只有两个元素，一个列表和一个数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;填空&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#填空&#34;&gt;#&lt;/a&gt; 填空&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;组合数据类型有哪些，应该是 &lt;code&gt;列表、元组、字典、集合&lt;/code&gt; ，四个空&lt;/li&gt;
+&lt;li&gt;问一段代码的输出是什么，很简单&lt;/li&gt;
+&lt;li&gt;两个表达式，填他们的值，涉及到的运算符有 &lt;code&gt;**&lt;/code&gt; 、 &lt;code&gt;//&lt;/code&gt; 、 &lt;code&gt;%&lt;/code&gt;  等，要注意运算顺序&lt;/li&gt;
+&lt;li&gt;bs4 和 request 的作用，我填的 &lt;code&gt;信息提取&lt;/code&gt; 和 &lt;code&gt;网页抓取&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;剩下的忘了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;判断&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#判断&#34;&gt;#&lt;/a&gt; 判断&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;就一个印象比较深，说全局变量在函数外定义，一般没有缩进， &lt;code&gt;是对的&lt;/code&gt; ，很经典，考前刷题见了好几次。考试时候我想的是函数内部写的 &lt;code&gt;global 变量名&lt;/code&gt; 扩充作用域。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;程序阅读&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程序阅读&#34;&gt;#&lt;/a&gt; 程序阅读&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;一个是 numpy 库的印象最深（因为不怎么会），考了 &lt;code&gt;reshape&lt;/code&gt; 、 &lt;code&gt;resize&lt;/code&gt; 、 &lt;code&gt;取值&lt;/code&gt; 、 &lt;code&gt;where&lt;/code&gt;  几个函数，都是 print 语句输出的，写输出的数组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20])
+print(arr.reshape(10,2))
+print(arr.resize(7,3))
+print(arr[[0,2],[0,2]])
+print(np.where(arr&amp;gt;8,True,arr))
+# [[ 1  2]
+#  [ 3  4]
+#  [ 5  6]
+#  [ 7  8]
+#  [ 9 10]
+#  [11 12]
+#  [13 14]
+#  [15 16]
+#  [17 18]
+#  [19 20]]
+# None
+# [1 9]
+# [[1 2 3]
+#  [4 5 6]
+#  [7 8 1]
+#  [1 1 1]
+#  [1 1 1]
+#  [1 1 1]
+#  [1 1 0]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;有一个文件的&lt;s&gt;忘了是读程序还是写程序&lt;/s&gt;，要求每一行后面写注释，唯一要注意的应该只有 &lt;code&gt;r只读模式&lt;/code&gt; 和 &lt;code&gt;w+读写模式&lt;/code&gt; 这几个。&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;另一个忘了&lt;/s&gt; try-except 结构的一段代码，找错并写出正确的就是冒号、缩进还有 input 输入两个数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;写程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写程序&#34;&gt;#&lt;/a&gt; 写程序&lt;/h3&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;&lt;em&gt;要求写一个函数，当场问老师能不能写两个或者是写函数和 &#39; 主程序 &#39;（没想起来怎么说）他说不行，我说你这考递归那要不就函数嵌套他说对 ［无语.jpg］&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;递归，类似斐波那契数列，第四项开始每一项等于前三项的和，写一个函数求这个数列 500 以内偶数的和。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;# F(0)=0,F(1)=1,F(2)=2,F(n)=F(n-3)+F(n-2)+F(n-1)
+def func():
+    def F(n):
+        if n==0:
+            return 0
+        elif n==1:
+            return 1
+        elif n==2:
+            return 2
+        else:
+            return F(n-3)+F(n-2)+F(n-1)
+    sum=0
+    n=0
+    while(F(n)&amp;lt;=500):
+        if F(n)%2==0:
+            sum+=F(n)
+        n+=1
+    print(sum)
+# func()
+# 326
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;用 random 库的 &lt;code&gt;randint&lt;/code&gt;  生成两个随机整数然后判断是否 &lt;code&gt;互质&lt;/code&gt; ，有人不知道互质是什么意思，就是 &lt;code&gt;最大公因数为1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;给一个函数，包含 e 和根号，用 numpy 和 matplotlib 库画图，属性的名称倒是给出来了，但是最关键的 &lt;code&gt;plt.plot()&lt;/code&gt;  和 &lt;code&gt;plt.show()&lt;/code&gt;  得知道，要求颜色是蓝色宽 25pt 实线什么的，还有就是 &lt;code&gt;x和y&lt;/code&gt;  是数列，给了 &lt;code&gt;np.linspace&lt;/code&gt;  并说了作用，但是没想起来，把他写到了属性里面，有空把程序补到下面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(1,10,20)
+y = np.exp(2)+np.power(x,0.5)
+# 公式忘了随便写的
+plt.plot(x,y,color=&#39;blue&#39;,linewidth=&#39;25&#39;,linestyle=&amp;quot;-&amp;quot;)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;举个例子说明 break 和 continue 的区别，送分题，写了一段循环然后讲一下就可以了&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://www.starnever.love/Python%E6%98%93%E6%B7%B7%E6%B7%86%E7%9F%A5%E8%AF%86%E7%82%B9/</guid>
+            <title>Python易混淆知识点</title>
+            <link>http://www.starnever.love/Python%E6%98%93%E6%B7%B7%E6%B7%86%E7%9F%A5%E8%AF%86%E7%82%B9/</link>
+            <category>期末复习</category>
+            <pubDate>Mon, 06 Mar 2023 20:44:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;python语法易混淆点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python语法易混淆点&#34;&gt;#&lt;/a&gt; Python 语法易混淆点&lt;/h2&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;刚考完 Java 马上要考 Python，总结几个易混淆的知识点&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;基本数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本数据类型&#34;&gt;#&lt;/a&gt; 基本数据类型&lt;/h3&gt;
+&lt;p&gt;Python：&lt;/p&gt;
+&lt;p&gt;  
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th rowspan=&#34;6&#34;&gt;基本数据类型&lt;/th&gt;
+        &lt;th rowspan=&#34;3&#34;&gt;数值类型&lt;/th&gt;
+        &lt;td&gt;整形int&lt;/td&gt;
+   &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;浮点型float&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;复数型complex&lt;/td&gt;
+    &lt;/tr&gt;
+ &lt;tr&gt;
+        &lt;td colspan=&#34;2&#34;&gt;字符串str&lt;/td&gt;
+    &lt;/tr&gt;
+ &lt;tr&gt;
+        &lt;td colspan=&#34;2&#34;&gt;布尔型bool&lt;/td&gt;
+    &lt;/tr&gt;
+ &lt;tr&gt;
+        &lt;td colspan=&#34;2&#34;&gt;空类型null&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;Python 基本数据类型中没有 &lt;code&gt;double&lt;/code&gt; 、 &lt;code&gt;short&lt;/code&gt; 、 &lt;code&gt;long&lt;/code&gt; 、 &lt;code&gt;char&lt;/code&gt; 、 &lt;code&gt;byte&lt;/code&gt;  类型，但是有 &lt;code&gt;str&lt;/code&gt; 、 &lt;code&gt;null&lt;/code&gt; 、 &lt;code&gt;complex&lt;/code&gt; ，并且布尔类型不是 &lt;code&gt;boolean&lt;/code&gt;  而是 &lt;code&gt;bool&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;三目运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三目运算符&#34;&gt;#&lt;/a&gt; 三目运算符&lt;/h3&gt;
+&lt;p&gt;Python 中没有 &lt;code&gt;?&lt;/code&gt;  运算符，要实现 &lt;code&gt;x&amp;gt;y?x:y&lt;/code&gt;  的效果只能 &lt;code&gt;x if x&amp;gt;y else y&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;除法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#除法&#34;&gt;#&lt;/a&gt; 除法&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;1/3&lt;/code&gt;  是 0.3333… 而不是 &lt;code&gt;0&lt;/code&gt; ，Python 的整数除法使用 &lt;code&gt;//&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运算符&#34;&gt;#&lt;/a&gt; 运算符&lt;/h3&gt;
+&lt;p&gt;Java： &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; 、 &lt;code&gt;||&lt;/code&gt; 、 &lt;code&gt;!&lt;/code&gt; &lt;br /&gt;
+Python： &lt;code&gt;and&lt;/code&gt; 、 &lt;code&gt;or&lt;/code&gt; 、 &lt;code&gt;not&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;保留字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#保留字&#34;&gt;#&lt;/a&gt; 保留字&lt;/h3&gt;
+&lt;p&gt;Python 有 33 个保留字，Java 中用到的 &lt;code&gt;do&lt;/code&gt; Python 中是没有的&lt;/p&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;欢迎留言评论区补充&lt;/p&gt;
+&lt;/div&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
