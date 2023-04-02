@@ -5,11 +5,52 @@
         <link>http://www.starnever.love</link>
         <description>哀吾生之须臾</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 07 Mar 2023 16:13:46 +0800</pubDate>
-        <lastBuildDate>Tue, 07 Mar 2023 16:13:46 +0800</lastBuildDate>
+        <pubDate>Sun, 02 Apr 2023 12:14:32 +0800</pubDate>
+        <lastBuildDate>Sun, 02 Apr 2023 12:14:32 +0800</lastBuildDate>
         <category>期末复习</category>
         <category>技术</category>
         <category>题目</category>
+        <item>
+            <guid isPermalink="true">http://www.starnever.love/JAVA%E8%BF%9B%E8%A1%8CHDFS%E6%93%8D%E4%BD%9C%E6%8A%A5%E9%94%99/</guid>
+            <title>JAVA进行HDFS操作报错</title>
+            <link>http://www.starnever.love/JAVA%E8%BF%9B%E8%A1%8CHDFS%E6%93%8D%E4%BD%9C%E6%8A%A5%E9%94%99/</link>
+            <pubDate>Sun, 02 Apr 2023 12:14:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;项目场景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#项目场景&#34;&gt;#&lt;/a&gt; 项目场景&lt;/h2&gt;
+&lt;p&gt;Linux 系统下使用 JAVA 进行简单的 HDFS 操作&lt;br /&gt;
+详情见： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NoaV96aV8xODMvYXJ0aWNsZS9kZXRhaWxzLzExNzI2NTMyNg==&#34;&gt;实验二：熟悉常用的 HDFS 操作&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;问题描述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#问题描述&#34;&gt;#&lt;/a&gt; 问题描述&lt;/h2&gt;
+&lt;p&gt;JAVA 报错： &lt;code&gt;Configuration can not be resolved to a type&lt;/code&gt;  等&lt;br /&gt;
+&lt;img data-src=&#34;https://img-blog.csdnimg.cn/af96a76d9df741b0ae868c39834a0bb9.png&#34; alt=&#34;JAVA代码报错&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;原因分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#原因分析&#34;&gt;#&lt;/a&gt; 原因分析&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能是未配置完成环境&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;配置环境比较麻烦：&lt;br /&gt;
+需要新建 maven 工程下载依赖项：&lt;br /&gt;
+详情见&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ4Mzk1NzM1L2FydGljbGUvZGV0YWlscy8xMDcwNDg3Nzg=&#34;&gt;使用 Java 实现 HDFS 文件读写&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;环境新建maven工程步骤及报错解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#环境新建maven工程步骤及报错解决方法&#34;&gt;#&lt;/a&gt; 【环境】新建 Maven 工程步骤及报错解决方法&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;参考：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vam91cmx5L3AvNzA5MzQxNC5odG1s&#34;&gt;【环境】新建 Maven 工程步骤及报错解决方法&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;missing-artifact-jdktoolsjdktoolsjar16-问题解决&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#missing-artifact-jdktoolsjdktoolsjar16-问题解决&#34;&gt;#&lt;/a&gt; Missing artifact jdk.tools:jdk.tools:jar:1.6 问题解决&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;参考：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d1emhvbmc4ODA5L2FydGljbGUvZGV0YWlscy8xMTQ0NTk1ODg=&#34;&gt;Missing artifact jdk.tools:jdk.tools:jar:1.6 问题解决&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;大部分教程说在 pom.xml 添加依赖，但又报错 “Missing artifact jdk.tools:jdk.tools:jar:1.8”，还是手动下载一次解决。&lt;/p&gt;
+&lt;h2 id=&#34;maven编译报错failed-to-execute-goal-orgapachemavenpluginsmaven-compiler-plugin31compile&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#maven编译报错failed-to-execute-goal-orgapachemavenpluginsmaven-compiler-plugin31compile&#34;&gt;#&lt;/a&gt; maven 编译报错 Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;见：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMDk0MzQ1L2FydGljbGUvZGV0YWlscy8xMDkzOTgxMjk=&#34;&gt;maven 编译报错 Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile..........&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我使用的是第一种方式：&lt;br /&gt;
+- 在标签内加入以下&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- 指定maven.compiler.plugin 配置版本，解决编译问题 --&amp;gt;
+&amp;lt;maven.compiler.source&amp;gt;1.8&amp;lt;/maven.compiler.source&amp;gt;
+&amp;lt;maven.compiler.target&amp;gt;1.8&amp;lt;/maven.compiler.target&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;需要注意的是如果原来的已有该标签代码，只更改数字即可，而不要在之后直接加&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://www.starnever.love/%E8%AF%BE%E5%90%8E%E9%A2%98%E7%AD%94%E6%A1%88-%E4%BF%A1%E6%81%AF%E7%BB%84%E7%BB%87/</guid>
             <title>课后题答案-信息组织</title>
